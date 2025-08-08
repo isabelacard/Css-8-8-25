@@ -1,0 +1,56 @@
+/* Universal */
+*{
+}
+
+/* Elementos */
+h1{
+    color: blue;
+}
+
+div{
+    background-color: antiquewhite;
+}
+
+/* ID */
+#title{
+    text-shadow: 1px 1px 10px;
+}
+
+/* Class */
+.container{
+    /* Para que sea el grande de toda la pagina */
+    height: 100%; 
+}
+
+.item-container {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.main-container > .item-1{
+    background-color: pink;
+}
+
+.main-container > .item-2{
+    background-color: wheat;
+}
+
+.main-container > .item-3{
+    background-color: cadetblue;
+}
+
+.main-container > .item-4{
+    background-color: darkkhaki;
+}
+
+.item-1, .item-2 {
+    border: 10px solid black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
